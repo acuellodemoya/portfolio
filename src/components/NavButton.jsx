@@ -8,14 +8,17 @@ import Sections from './Sections';
 const NavButton = () => {
   const [menu, setMenu] = useState(false);
 
-  const handleClick = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
     setMenu(!menu);
   };
 
   return (
     <div>
-      <GiHamburgerMenu className="menu-logo" onClick={handleClick} />
-      {menu ? <Sections /> : ''}
+      <div>
+        <GiHamburgerMenu className="menu-logo" onClick={handleClick} />
+      </div>
+      {menu ? <Sections /> : null}
     </div>
   );
 };

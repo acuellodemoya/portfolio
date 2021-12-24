@@ -10,8 +10,8 @@ import Projects from './pages/Projects';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
       <BrowserRouter>
+        <Header></Header>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />

@@ -5,8 +5,12 @@ import '../styles/Sections.css';
 const Sections = () => {
   return (
     <div className="sections">
-      <Link to={'/about'}>Sobre Mi</Link>
-      <Link to={'/projects'}>Proyectos</Link>
+      <Link to="/about" className="nav-link">
+        Sobre Mi
+      </Link>
+      <Link to="/projects" className="nav-link">
+        Proyectos
+      </Link>
     </div>
   );
 };
