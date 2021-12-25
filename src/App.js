@@ -10,7 +10,7 @@ import Projects from './pages/Projects';
 function App() {
   return (
     <div className="App">
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <Header></Header>
         <Routes>
           <Route exact path="/" element={<Home />} />
