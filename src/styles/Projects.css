@@ -51,3 +51,9 @@
 .btn-project:hover {
   background-color: #406882;
 }
+
+@media (max-width: 600px) {
+  .project {
+    width: 100%;
+  }
+}
