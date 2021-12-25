@@ -5,12 +5,31 @@
   align-items: center;
   width: 200px;
   height: 200px;
-  background-color: green;
+  background-color: rgb(177, 208, 224, 0.5);
   position: absolute;
   z-index: 1;
   right: 150px;
+  border-radius: 8px;
 }
 
 .nav-link {
   margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  background-color: #406882;
+  border-radius: 8px;
+}
+
+.nav-link:hover {
+  background-color: #1a374d;
+}
+
+@media (max-width: 600px) {
+  .sections {
+    width: 100%;
+  }
 }

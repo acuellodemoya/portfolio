@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.title {
+  padding-bottom: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}

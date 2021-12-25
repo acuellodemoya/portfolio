@@ -6,7 +6,7 @@ const Sections = () => {
   return (
     <div className="sections">
       <Link to="/about" className="nav-link">
-        Sobre Mi
+        Conocimientos
       </Link>
       <Link to="/projects" className="nav-link">
         Proyectos

@@ -3,6 +3,7 @@
   height: 50px;
   display: flex;
   justify-content: center;
+  background-color: #6998ab;
 }
 
 .footer .social-logo {
@@ -10,4 +11,5 @@
   height: 30px;
   margin-left: 40px;
   margin-right: 40px;
+  margin-top: 10px;
 }
