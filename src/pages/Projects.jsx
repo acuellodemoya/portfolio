@@ -71,6 +71,20 @@ const Projects = () => {
             Ver Mas
           </a>
         </div>
+        <div className="project">
+          <h3 className="project-title">URL Shortener Microservice</h3>
+          <p className="project-description">
+            App para acortar URLs realizada como practica del curso de APIs y
+            Microservicios de Freecodecamp.
+          </p>
+
+          <a
+            href="https://github.com/acuellodemoya/url-shortener-microservice"
+            className="btn-project"
+          >
+            Ver Mas
+          </a>
+        </div>
       </section>
     </div>
   );
